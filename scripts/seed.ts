@@ -70,27 +70,21 @@ const main = async ()  => {
             {
                 id: 3,
                 unitId: 1,
-                title: "Adjectives",
+                title: "Verbs",
                 order: 3,
             },
             {
                 id: 4,
                 unitId: 1,
-                title: "Adverbs",
+                title: "Verbs",
                 order: 4,
             },
             {
                 id: 5,
                 unitId: 1,
-                title: "Pronouns",
+                title: "Verbs",
                 order: 5,
             },
-            {
-                id: 6,
-                unitId: 1,
-                title: "Prepositions",
-                order: 6,
-            }
         ]);
         await db.insert(schema.challenges).values([
             {
