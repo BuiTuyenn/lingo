@@ -13,7 +13,7 @@ type Props = {
 export const UserProgress = ({ activeCourse, points,hearts, hasActiveSubscription}: Props) => {
     return (
         <div className="flex items-center justify-between gap-x-2 w-full">
-            <Link href="/main/courses">
+            <Link href="courses">
                 <Button>
                     <img
                         src={activeCourse.imageSrc}  

@@ -16,7 +16,7 @@ const CoursesPage = async () => {
   return (
     <div className="h-full MAX-W-[912px] px-3 mx-auto">
       <h1 className="text-2xl font-bold text-neutral-700">
-        Courses
+        Language Courses
       </h1> 
       <List
         courses={courses}       

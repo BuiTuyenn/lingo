@@ -60,7 +60,7 @@ export const ExitModal = () => {
                             size="lg"
                             onClick={() => {
                                 Close();   
-                                router.push("/main/learn");
+                                router.push("learn");
                             }}
                         >
                             Exit session              

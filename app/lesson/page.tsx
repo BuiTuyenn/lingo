@@ -19,7 +19,7 @@ const LessonPage = async() => {
     ]);
 
     if (!lesson || !userProgress) {
-        redirect("/main/learn");
+        redirect("learn");
     }
 
     const initiaPercentage = lesson.challenges

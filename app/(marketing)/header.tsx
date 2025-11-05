@@ -17,7 +17,7 @@ export const Header = () => {
 
   const handleSignIn = () => {
     openSignIn({
-      redirectUrl: "/main/learn"
+      redirectUrl: "learn"
     });
   };
 

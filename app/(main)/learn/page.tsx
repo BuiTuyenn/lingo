@@ -33,11 +33,11 @@ const LearnPage = async () => {
   ]);
 
   if (!userProgress || !userProgress.activeCourse ){
-    redirect("/main/courses")
+    redirect("courses")
   }
 
   if (!courseProgress){
-    redirect("/main/courses")
+    redirect("courses")
   }
 
   return (

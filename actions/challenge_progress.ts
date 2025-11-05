@@ -55,7 +55,7 @@ export const upsertChallengeProgress = async (challengeId: number) => {
             points: currentUserProgress.points + 10,
         }).where(eq(userProgress.userId, userId));
 
-        revalidatePath("/main/learn");
+        revalidatePath("learn");
         revalidatePath("/lesson");
         revalidatePath("/quests");
         revalidatePath("/leaderboard");
@@ -73,7 +73,7 @@ export const upsertChallengeProgress = async (challengeId: number) => {
         points: currentUserProgress.points + 10,
     }).where(eq(userProgress.userId, userId));
 
-    revalidatePath("/main/learn");
+    revalidatePath("learn");
     revalidatePath("/lesson");
     revalidatePath("/quests");
     revalidatePath("/leaderboard");
